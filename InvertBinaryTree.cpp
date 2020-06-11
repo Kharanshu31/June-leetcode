@@ -4,7 +4,7 @@ void mirror(TreeNode *p)
             return;
          if(p->left!= NULL || p->right!=NULL)
         {
-            TreeNode*temp=p->left;
+            TreeNode* temp=p->left;
             p->left=p->right;
             p->right=temp;
         }
