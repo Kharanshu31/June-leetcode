@@ -1,7 +1,9 @@
 class Solution {
 public:
-    bool isSubsequence(string s, string t) {
-        
+  bool isSubsequence(string s, string t) {
+
+//         Naive Approach
+
 //         vector<long long>res;
 //         int flag;
 //         for(int i=0;i<s.length();i++)
@@ -24,10 +26,11 @@ public:
 //             }
 //             if(flag==0)
 //                 break;
-//         }
-       
+//         }      
 //         return true;
         
+//          Best Solution
+ 
             int i=0, j=0;
             while(i<s.length() && j<t.length()){
              if(s[i]==t[j])
