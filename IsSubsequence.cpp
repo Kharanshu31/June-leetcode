@@ -29,7 +29,7 @@ public:
 //         }      
 //         return true;
         
-//          Best Solution
+//         Best Solution
  
             int i=0, j=0;
             while(i<s.length() && j<t.length()){
