@@ -14,7 +14,6 @@ public:
 //             vector<bool>visited(n,0);
 //             for(int j=i;j<n-1;j++)
 //             {
-                
 //                 if(ar[j+1] % ar[j]==0)
 //                 {
 //                     temp.push_back(ar[j+1]);
